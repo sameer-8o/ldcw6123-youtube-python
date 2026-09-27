@@ -1,0 +1,53 @@
+commit 2d59bf7a96f23849bae1da9717673574a8707346
+Author:     sameer-8o <sammer765bassam@gmail.com>
+AuthorDate: Sun Sep 27 21:18:25 2026 +0800
+Commit:     sameer-8o <sammer765bassam@gmail.com>
+CommitDate: Sun Sep 27 21:18:25 2026 +0800
+
+    Document browser upload and portable Git history
+
+ docs/git-history.md | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+
+commit 5fb7e7d535e9ac2514324dd0cb288b4e0b1001f2
+Author:     sameer-8o <sammer765bassam@gmail.com>
+AuthorDate: Sun Sep 27 21:12:28 2026 +0800
+Commit:     sameer-8o <sammer765bassam@gmail.com>
+CommitDate: Sun Sep 27 21:12:28 2026 +0800
+
+    Add CLI verification and document GitHub submission evidence
+    
+    Run ten passing behavior checks and record one expected failure for Unicode numeric input. Preserve the supplied application source unchanged and document the actual history scope.
+
+ README.md            |  10 ++++-
+ docs/git-history.md  |   5 ++-
+ docs/verification.md |  50 +++++++++++++++++++++
+ tests/test_cli.py    | 122 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 185 insertions(+), 2 deletions(-)
+
+commit 3e0a972adcdee334050296b25e01867382b7876f
+Author:     sameer-8o <sammer765bassam@gmail.com>
+AuthorDate: Sun Sep 27 21:02:49 2026 +0800
+Commit:     sameer-8o <sammer765bassam@gmail.com>
+CommitDate: Sun Sep 27 21:02:49 2026 +0800
+
+    Document usage, inputs, outputs and available Git history
+
+ README.md                  | 62 ++++++++++++++++++++++++++++++++++++++++++++++
+ docs/git-history.md        | 36 +++++++++++++++++++++++++++
+ docs/inputs-and-outputs.md | 29 ++++++++++++++++++++++
+ 3 files changed, 127 insertions(+)
+
+commit f5e62e83d7010449941fd1de3545ff2f7989c16f
+Author:     sameer-8o <sammer765bassam@gmail.com>
+AuthorDate: Sun Sep 27 21:01:43 2026 +0800
+Commit:     sameer-8o <sammer765bassam@gmail.com>
+CommitDate: Sun Sep 27 21:01:43 2026 +0800
+
+    Import supplied Python recommendation assistant as baseline
+    
+    The supplied program was already implemented. This commit starts Git tracking of that existing version; it does not reconstruct earlier development.
+
+ .gitignore                              |   6 +
+ src/youtube_recommendation_assistant.py | 335 ++++++++++++++++++++++++++++++++
+ 2 files changed, 341 insertions(+)

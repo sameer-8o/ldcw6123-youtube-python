@@ -1,0 +1,4 @@
+* 2d59bf7 Document browser upload and portable Git history
+* 5fb7e7d Add CLI verification and document GitHub submission evidence
+* 3e0a972 Document usage, inputs, outputs and available Git history
+* f5e62e8 Import supplied Python recommendation assistant as baseline
