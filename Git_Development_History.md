@@ -48,4 +48,4 @@ The test suite ran 11 tests: 10 passed and one expected failure documented an ex
 
 Full results are in `docs/verification.md` in the repository. Detailed commit dates and changed files are supplied in `git-log-detailed.txt`.
 
-The repository is private. Readers need repository access to view the links.
+The repository is public. Readers can open the source and Git-log links without an invitation.

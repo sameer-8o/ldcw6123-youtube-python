@@ -12,6 +12,11 @@ python youtube_recommendation_assistant.py
 
 The source is preserved byte-for-byte from the supplied `python code.txt`. It contains 30 sample videos, category and mood recommendations, duration filtering, and a Watch Later list stored for the current session.
 
+## Submission evidence
+
+- [PDF with code, output and Git screenshots](LDCW6123_Code_Output_Git_Evidence.pdf)
+- [Original screenshots and execution transcripts](LDCW6123_Evidence_Package.zip)
+
 ## Git evidence for the report
 
 - [Report section ready to copy](Git_Development_History.md)
@@ -42,4 +47,4 @@ python -m unittest discover -s tests -v
 
 Recorded result: **10 passing tests and 1 expected failure**. The expected failure documents an existing bug: the numeric character `²` causes a `ValueError`. The original application has not been changed. Watch Later is not saved between runs; the catalogue is fixed sample data and does not call YouTube.
 
-The repository is private, so the lecturer and group members need access to open its links.
+The repository is public, so the lecturer and group members can open its links without an invitation.
